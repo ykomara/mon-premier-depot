@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Chris Mills" />
+    <meta
+     name="description"
+     content="La Zone Apprentissage des documents web
+     du MDN a pour but de donner aux débutants du Web tout ce qu'ils doivent
+     savoir pour commencer le développement de pages webs et d'applications." />
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> 
+    <title>&lt;title&gt; element</title>
+    <link rel="preload" href="sintel-short.mp4" as="video" type="video/mp4" />
+  </head>
+
+  <body>
+    <header>
+
+    </header>
+
+    <hr>
+    <h1>Évaluation : page d'accueil Mozilla</h1>
+
+    <hr>
+
+    <main>
+      <section>
+        <h1>My website</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget venenatis ligula. Ut lacinia at dolor vitae pulvinar. Aliquam pretium dignissim eros. Integer faucibus, dui non aliquet bibendum, lectus orci lobortis odio, ornare porttitor est tellus eget velit. Nulla eros elit, malesuada id neque vel, viverra vehicula neque. Nullam auctor turpis non leo iaculis finibus. Quisque blandit arcu venenatis libero tempor, ac pulvinar ligula dapibus.</p>
+
+        <img src="images/img1.jpg" alt="Chris standing up holding his daughter Elva">
+
+        <p>Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros ornare consectetur. Vestibulum convallis condimentum varius. Maecenas rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi vitae quam vitae nisi iaculis dignissim.</p>
+
+        <img src="images/img2.jpg" alt="Elva dressed as a fairy">
+
+        <p>Header image originally by <a href="https://www.flickr.com/photos/miwok/17086751527/">Miwok</a>.</p>
+      </section>
+    </main>
+
+    <h1>&lt;h1&gt; element</h1>
+    <p>Japanese example: ご飯が熱い。</p>
+
+    <video controls>
+    <source src="videos/sintel-short.mp4" type="video/mp4" />
+    <source src="videos/sintel-short.webm" type="video/webm" />
+    <p>
+      Votre navigateur ne prend pas en charge les vidéos HTML5. Voici un
+      <a href="sintel-short.mp4">lien vers le fichier vidéo en remplacement</a>.
+    </p>
+  </video>
+
+	
+<form action="my-handling-form-page" method="post">
+  <ul>
+    <li>
+      <label for="name">Nom&nbsp;:</label>
+      <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">E-mail&nbsp;:</label>
+      <input type="email" id="mail" name="user_mail" />
+    </li>
+    <li>
+      <label for="texte">Défaut:</label>
+      <input type="text" id="texte" name="texte" value="par défaut cet élément sera renseigné avec ce texte"/>
+    </li>
+    <li>
+      <label for="msg">Message&nbsp;:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+    <li class="button">
+					<button type="submit">Send your message</button>
+		</li>
+  </ul>
+</form>
+<form>
+  <div> 
+    <label for="choose">Préférez-vous la banane ou la cerise&nbsp;?</label>
+    <input id="choose" list="l2" name="i_like" pattern="banane|cérise|pameplemousse|pamepl" minlength="6" maxlength="7" required/>
+    <datalist id="l2">
+      <option>banane</option>
+      <option>cérise</option>
+      <option>pamepl</option>
+    </datalist> 
+  </div>
+
+   
+  
+  <div>
+    <label for="number">Combien en voulez‑vous&nbsp;?</label>
+    <input type="number" id="number" name="amount" value="1" min="1" max="10" />
+  </div>
+  
+
+  <div>
+    <label for="t1">Quel est votre fruit favori&nbsp;?<abbr title="Ce champ est obligatoire">*</abbr></label>
+    <input type="text" id="t1" name="fruit" list="l1" required
+           pattern="[Bb]anane|[Cc]erise|[Cc]itron|[Ff]raise|[Oo]range|[Pp]omme">
+    <datalist id="l1">
+      <option>Banane</option>
+      <option>Cerise</option>
+      <option>Citron</option>
+      <option>Fraise</option>
+      <option>Orange</option>
+      <option>Pomme</option>
+    </datalist>
+  </div>
+
+  <div>
+    <label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select" multiple size="3">
+
+  <optgroup label="Group 1">
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+  </optgroup>  
+
+  <optgroup label="Group 2">
+    <option value="cat">Cat</option>
+    <option value="spider">Spider</option>
+  </optgroup>  
+
+  <optgroup label="Group 3">
+    <option selected value="goldfish">Goldfish</option>
+    <option selected value="dog">dog</option>
+  </optgroup>  
+
+</select>
+  </div>  
+  
+  <button>Soumettre</button>
+</form>
+
+<div>
+  <h1>Animals table</h1>
+  <table>
+    <tr>
+      <th colspan="2">Animaux</th>
+    </tr>
+    <tr>
+      <th colspan="2">Hippopotame</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Cheval</th>
+      <td>Jument</td>
+    </tr>
+    <tr>
+      <td>Étalon</td>
+    </tr>
+    <tr>
+      <th colspan="2">Crocodile</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Poulet</th>
+      <td>Poule</td>
+    </tr>
+    <tr>
+      <td>Coq</td>
+    </tr>
+  </table>
+  
+</div>
+
+<div>
+  
+      <h1>School timetable</h1>
+  
+      <table>
+        <colgroup>
+          <col span="2">
+          <col style="background-color:#97DB9A;">
+        <col style="width:100px;">
+        <col style="background-color:#97DB9A;">
+        <col style="background-color:#DCC48E; border:4px solid #C1437A;">
+        <col span="2" style="width:100px;">
+        </colgroup>
+
+        <tr>
+          <td>&nbsp;</td>
+          <th>Mon</th>
+          <th>Tues</th>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <th>1st period</th>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>2nd period</th>
+          <td>English</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>3rd period</th>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>&nbsp;</td>
+          <td>German</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>4th period</th>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>&nbsp;</td>
+          <td>English</td>
+          <td>Dutch</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+  
+</div>
+
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.3589081248656!2d-1.645190924934728!3d48.122601552205445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edeee0131331d%3A0x14f3325c90c9b333!2sRue%20Louis%20Arretche%2C%2035700%20Rennes!5e0!3m2!1sfr!2sfr!4v1736267665882!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div>
+  <iframe
+  src="https://developer.mozilla.org/fr/docs/Glossary"
+  width="100%"
+  height="500"
+  frameborder="0"
+  allowfullscreen
+  sandbox>
+  <p>
+    <a href="https://developer.mozilla.org/fr/docs/Glossary">
+      Lien de repli pour les navigateurs ne prenant pas en charge iframe
+    </a>
+  </p>
+</iframe>
+
+</div>
+
+<div>
+  <object
+  data="mypdf.pdf"
+  type="application/pdf"
+  width="800"
+  height="1200"
+  typemustmatch>
+  <p>
+    Vous ne possédez pas de greffon PDF, mais vous pouvez
+    <a href="myfile.pdf">télécharger le fichier PDF.</a>
+  </p>
+</object>
+</div>
+
+<div>
+<svg
+  version="1.1"
+  baseProfile="full"
+  width="300"
+  height="200"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black" />
+  <circle cx="150" cy="100" r="90" fill="red" />
+</svg>
+
+</div>
+
+<div>
+  <svg width="100%" height="100%">
+    <rect width="100%" height="100%" fill="red" />
+    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+    <polygon points="120,0 240,225 0,225" fill="green"/>
+    <text x="50" y="100" font-family="Verdana" font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+            Coucou Yaya 🥷!
+    </text>
+  </svg>
+</div>
+
+<div>
+  <img
+  srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(max-width: 600px) 480px,
+            800px"
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy" />
+
+</div>
+
+<div>
+  <img
+  srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+  src="elva-fairy-640w.jpg"
+  alt="Elva habillée en fée" />
+
+</div>
+
+<div>
+  <picture>
+    <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+    <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+    <img
+      src="elva-800w.jpg"
+      alt="Chris debout tenant sa fille Elva dans ses bras" />
+  </picture>  
+</div>
+
+  </body>
+</html>

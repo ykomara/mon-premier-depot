@@ -1,0 +1,25 @@
+-https://validator.w3.org/  ->  Markup Validation Service 
+
+-https://developers.google.com/fonts/docs/getting_started?hl=fr -> styles de police css
+
+-https://search.google.com/search-console/welcome?hl=fr&utm_source=wmx&utm_medium=deprecation-pane&utm_content=home   ->   rendre les résultats de recherche de votre site meilleurs avec le moteur de recherche de Google
+
+-https://www.flaticon.com/fr/icone-gratuite/favicon_3585640 -> favicon pour site web
+
+-https://github.com/mdn/html-examples -> les modèles html
+
+-https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/ ->  Guide complet pour des formulaires web facilement utilisables
+
+-https://www.flickr.com/photos/miwok/17086751527/ -> télécharger des img html free
+
+-https://inkscape.org/  et adobe illustrator -> site de création des images vectorielles svg
+
+-https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr -> SEO (à apprendre pour l'accès facile à mon site)
+
+-https://tinypng.com/ -> rendre une image le plus petit possible tout en restant de bonne qualité
+
+-https://pages.github.com/ -> page pour publier un site web sur Internet à travers GitHub
+
+-https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Tools_and_setup/Using_GitHub_pages -> Utiliser les pages GitHub
+
+-https://git-scm.com/downloads/guis?os=windows -> interfaces graphiques git 

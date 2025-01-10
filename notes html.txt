@@ -1,0 +1,12 @@
+lancement vs code -> code --disable-extensions
+-utilisation de <meta> dans <head> pour opimisation
+-utilisation de preload dans <link> pour optimisation
+-utilisation de l'attribut controls pour <video>
+1) la sécurité d'un site web
+2) contrainte de validation de formulaire (sécurité)
+3) sandbox pour la sécurité des iframe
+4) X-Frame-Options (sécurité iframe)
+5)iframe, embed, object (pour intégration des pdf,...)
+6)images matricielles (png, jpeg, bitmap...) Vs images vectorielles (svg)
+7) les élements svg des A à Z (https://developer.mozilla.org/fr/docs/Web/SVG/Element)
+8) <srcset> et <sizes> — permettant de fournir plusieurs images source avec des indications pour permettre au navigateur de faire le bon choix
